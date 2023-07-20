@@ -1,0 +1,97 @@
+.Transaction {
+  display: inline-flex;
+  padding: 1.6rem 5.6rem 1.4rem 1.9rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.4rem;
+  border-radius: var(--br, 1.6rem 1.6rem 1.6rem 0rem);
+  background: #fff;
+
+  /* M3/Elevation Dark/3 */
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3),
+    0px 4px 8px 3px rgba(0, 0, 0, 0.15);
+}
+
+.Right {
+  display: grid;
+  place-content: end;
+  --br: 1.6rem 1.6rem 0rem 1.6rem;
+}
+.Bill {
+  margin: 0 1.9rem 1.6rem;
+}
+.Delivery {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.Bill figure {
+  width: 4.8rem;
+  height: 4.8rem;
+  color: #1a1a1a;
+  font-family: Inter;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.4rem; /* 80% */
+  background-color: red;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  font-family: sans-serif;
+}
+
+.Bill h1 {
+  color: #1a1a1a;
+  font-family: Krona One;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Bill h3 {
+  color: #1a1a1a;
+
+  /* M3/body/large */
+  font-family: Roboto;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem; /* 150% */
+  letter-spacing: 0.05rem;
+}
+
+.Bill time {
+  color: #fff;
+  text-align: right;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Bill span {
+  display: inline-flex;
+  padding: 0.4rem 0.8rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 1.2rem;
+  background: var(--blue-1, #2f80ed);
+  display: grid;
+  place-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-top: 0.6rem;
+}
+
+.Bill div:first-of-type {
+  width: 15rem;
+}
+.Bill div:last-of-type {
+  margin-left: auto;
+}

@@ -1,54 +1,69 @@
-import React from 'react'
+import React from "react"
+import Styles from "./Navbar.module.css"
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Starter Code
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+    <nav className={Styles.nav}>
+      <div className={Styles.nav__wrapper}>
+        <svg
+          width="40"
+          height="40"
+          viewBox="0 0 40 40"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-          <form className="d-flex">
-            <input
-              className="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
+          <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M11 16V14H29V16H11ZM11 21H29V19H11V21ZM11 26H29V24H11V26Z"
+            fill="#CAC4D0"
+          />
+        </svg>
+        <input placeholder="Search Transactions"></input>
+        <svg
+          width="48"
+          height="48"
+          viewBox="0 0 48 48"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clipPath="url(#clip0_41_148)">
+            <path
+              fillRule="evenodd"
+              clipRule="evenodd"
+              d="M26.76 25.27L32.49 31L31 32.49L25.27 26.76C24.2 27.53 22.91 28 21.5 28C17.91 28 15 25.09 15 21.5C15 17.91 17.91 15 21.5 15C25.09 15 28 17.91 28 21.5C28 22.91 27.53 24.2 26.76 25.27ZM21.5 17C19.01 17 17 19.01 17 21.5C17 23.99 19.01 26 21.5 26C23.99 26 26 23.99 26 21.5C26 19.01 23.99 17 21.5 17Z"
+              fill="#CAC4D0"
             />
-            <button className="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
+          </g>
+          <defs>
+            <clipPath id="clip0_41_148">
+              <rect x="4" y="4" width="40" height="40" rx="20" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+        <svg
+          width="30"
+          height="30"
+          viewBox="0 0 30 30"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clipPath="url(#clip0_41_154)">
+            <circle cx="15" cy="15" r="15" fill="#D0BCFF" />
+            <path
+              d="M19.3625 14.1875V18.5312C19.201 18.7448 18.9484 18.9792 18.6047 19.2344C18.2661 19.4844 17.8156 19.7005 17.2531 19.8828C16.6906 20.0651 15.9901 20.1562 15.1516 20.1562C14.438 20.1562 13.7844 20.0365 13.1906 19.7969C12.5969 19.5521 12.0839 19.1953 11.6516 18.7266C11.2245 18.2578 10.8938 17.6875 10.6594 17.0156C10.425 16.3385 10.3078 15.5677 10.3078 14.7031V13.9141C10.3078 13.0547 10.4146 12.2891 10.6281 11.6172C10.8469 10.9401 11.1594 10.3672 11.5656 9.89844C11.9719 9.42969 12.4615 9.07552 13.0344 8.83594C13.6125 8.59115 14.2661 8.46875 14.9953 8.46875C15.9276 8.46875 16.6984 8.625 17.3078 8.9375C17.9224 9.24479 18.3964 9.67188 18.7297 10.2188C19.063 10.7656 19.274 11.3906 19.3625 12.0938H17.4406C17.3781 11.6979 17.2557 11.3438 17.0734 11.0312C16.8964 10.7188 16.6411 10.474 16.3078 10.2969C15.9797 10.1146 15.5526 10.0234 15.0266 10.0234C14.5734 10.0234 14.175 10.1094 13.8313 10.2812C13.4875 10.4531 13.201 10.7057 12.9719 11.0391C12.7479 11.3724 12.5786 11.7786 12.4641 12.2578C12.3495 12.737 12.2922 13.2839 12.2922 13.8984V14.7031C12.2922 15.3281 12.3573 15.8828 12.4875 16.3672C12.6229 16.8516 12.8156 17.2604 13.0656 17.5938C13.3208 17.9271 13.6307 18.1797 13.9953 18.3516C14.3599 18.5182 14.7714 18.6016 15.2297 18.6016C15.6776 18.6016 16.0448 18.5651 16.3313 18.4922C16.6177 18.4141 16.8443 18.3229 17.0109 18.2188C17.1828 18.1094 17.3156 18.0052 17.4094 17.9062V15.6484H15.0422V14.1875H19.3625Z"
+              fill="#381E72"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_41_154">
+              <rect width="30" height="30" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
       </div>
     </nav>
-  );
+  )
 }
 
 export default Navbar

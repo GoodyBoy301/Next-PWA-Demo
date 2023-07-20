@@ -1,0 +1,41 @@
+.homeWrapper {
+  background: #1a1a1a;
+  min-height: 100vh;
+}
+
+.homeWrapper form {
+  display: flex;
+  border-radius: 2.8rem;
+  background: #fff;
+  position: relative;
+  margin: 0.6rem 1.9rem 4.9rem;
+}
+
+.homeWrapper input {
+  color: #575664;
+
+  /* M3/body/large */
+  font-family: Roboto;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem; /* 150% */
+  letter-spacing: 0.05rem;
+  padding: 0.4rem 5.4rem 0.4rem 0.8rem;
+  align-items: center;
+  gap: 2.0164rem;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 2.8rem;
+  border: none;
+  height: 5.2rem;
+  margin-left: 5rem;
+}
+
+.homeWrapper button {
+  position: absolute;
+  width: 3.8rem;
+  height: 3.8rem;
+  right: 3.8rem;
+  top: 0.5rem;
+}

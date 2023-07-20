@@ -1,0 +1,76 @@
+.nav {
+  padding: 3.9rem 0 2.8rem;
+}
+
+.nav2 {
+  padding: 3.9rem 0 2.8rem;
+}
+
+.nav__wrapper {
+  display: flex;
+  background: #2b2930;
+  display: flex;
+  width: 32.8rem;
+  height: 5.6rem;
+  align-items: center;
+  gap: 0.4rem;
+  flex-shrink: 0;
+  border-radius: 2.8rem;
+  margin: 0 auto;
+  padding: 0.9rem;
+  padding-right: 1.25rem;
+}
+
+.nav2 .nav__wrapper {
+  gap: 1.3rem;
+  display: flex;
+  padding: 3.3rem 1.8rem;
+  width: unset;
+  border-radius: unset;
+}
+
+.nav2 figure {
+  width: 4.8rem;
+  height: 4.8rem;
+  color: #1a1a1a;
+  font-family: Inter;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.4rem; /* 80% */
+  background-color: red;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  font-family: sans-serif;
+}
+
+.nav input {
+  flex: 1;
+  color: var(--m-3-sys-dark-on-surface-variant, #cac4d0);
+  background: unset;
+  outline: none !important;
+  border: none !important;
+
+  /* M3/body/large */
+  font-family: Roboto;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem; /* 150% */
+  letter-spacing: 0.05rem;
+}
+
+.nav2 svg {
+  width: 2.3rem;
+  height: 2.3rem;
+}
+
+.nav2 h4 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
