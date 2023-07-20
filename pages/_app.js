@@ -1,12 +1,10 @@
-import Head from "next/head";
-import Script from "next/script";
+import Head from "next/head"
+import Script from "next/script"
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        // Responsive meta tag
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        // bootstrap CDN
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
           rel="stylesheet"
@@ -22,6 +20,6 @@ function MyApp({ Component, pageProps }) {
       />
       <Component {...pageProps} />
     </>
-  );
+  )
 }
-export default MyApp;
+export default MyApp
