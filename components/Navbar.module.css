@@ -3,7 +3,7 @@
 }
 
 .nav2 {
-  padding: 3.9rem 0 2.8rem;
+  padding: 0 0 2.8rem;
 }
 
 .nav__wrapper {
@@ -27,6 +27,7 @@
   padding: 3.3rem 1.8rem;
   width: unset;
   border-radius: unset;
+  padding-top: 6rem;
 }
 
 .nav2 figure {

@@ -89,7 +89,7 @@ const usersArray = [
         reason: "Transport",
         sign: "-",
         timestamp: "2023-07-17T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "9876543210",
@@ -113,7 +113,7 @@ const usersArray = [
         reason: "Books",
         sign: "-",
         timestamp: "2023-07-20T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "1234567893",
@@ -211,7 +211,7 @@ const usersArray = [
         reason: "Transport",
         sign: "-",
         timestamp: "2023-07-17T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "9876543210",
@@ -235,7 +235,7 @@ const usersArray = [
         reason: "Books",
         sign: "-",
         timestamp: "2023-07-20T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "1234567893",
@@ -333,7 +333,7 @@ const usersArray = [
         reason: "Transport",
         sign: "-",
         timestamp: "2023-07-17T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "9876543210",
@@ -357,7 +357,7 @@ const usersArray = [
         reason: "Books",
         sign: "-",
         timestamp: "2023-07-20T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "1234567893",
@@ -455,7 +455,7 @@ const usersArray = [
         reason: "Transport",
         sign: "-",
         timestamp: "2023-07-17T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "9876543210",
@@ -479,7 +479,7 @@ const usersArray = [
         reason: "Books",
         sign: "-",
         timestamp: "2023-07-20T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "1234567893",
@@ -577,7 +577,7 @@ const usersArray = [
         reason: "Transport",
         sign: "-",
         timestamp: "2023-07-17T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "9876543210",
@@ -601,7 +601,7 @@ const usersArray = [
         reason: "Books",
         sign: "-",
         timestamp: "2023-07-20T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "1234567893",
@@ -699,7 +699,7 @@ const usersArray = [
         reason: "Transport",
         sign: "-",
         timestamp: "2023-07-17T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "9876543210",
@@ -723,7 +723,7 @@ const usersArray = [
         reason: "Books",
         sign: "-",
         timestamp: "2023-07-20T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "1234567893",
@@ -821,7 +821,7 @@ const usersArray = [
         reason: "Transport",
         sign: "-",
         timestamp: "2023-07-17T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "9876543210",
@@ -845,7 +845,7 @@ const usersArray = [
         reason: "Books",
         sign: "-",
         timestamp: "2023-07-20T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "1234567893",
@@ -943,7 +943,7 @@ const usersArray = [
         reason: "Transport",
         sign: "-",
         timestamp: "2023-07-17T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "9876543210",
@@ -967,7 +967,7 @@ const usersArray = [
         reason: "Books",
         sign: "-",
         timestamp: "2023-07-20T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "1234567893",
@@ -1065,7 +1065,7 @@ const usersArray = [
         reason: "Transport",
         sign: "-",
         timestamp: "2023-07-17T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "9876543210",
@@ -1089,7 +1089,7 @@ const usersArray = [
         reason: "Books",
         sign: "-",
         timestamp: "2023-07-20T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "1234567893",
@@ -1187,7 +1187,7 @@ const usersArray = [
         reason: "Transport",
         sign: "-",
         timestamp: "2023-07-17T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "9876543210",
@@ -1211,7 +1211,7 @@ const usersArray = [
         reason: "Books",
         sign: "-",
         timestamp: "2023-07-20T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "1234567893",
@@ -1309,7 +1309,7 @@ const usersArray = [
         reason: "Transport",
         sign: "-",
         timestamp: "2023-07-17T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "9876543210",
@@ -1333,7 +1333,7 @@ const usersArray = [
         reason: "Books",
         sign: "-",
         timestamp: "2023-07-20T08:20:14Z",
-        deliveryStatus: "pending",
+        deliveryStatus: "sending",
       },
       {
         uuid: "1234567893",

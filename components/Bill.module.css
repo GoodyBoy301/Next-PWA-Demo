@@ -90,7 +90,8 @@
 }
 
 .Bill div:first-of-type {
-  width: 15rem;
+  min-width: 15rem;
+  margin-bottom: 0.6rem;
 }
 .Bill div:last-of-type {
   margin-left: auto;

@@ -1,22 +1,46 @@
 import Navbar2 from "../components/Navbar2"
 import Bill from "../components/Bill"
 import Styles from "./index.module.css"
+import { users } from "../components/Card"
+import { useState } from "react"
 
 export default function Home() {
+  const [person, setPerson] = useState(users[1])
+
   return (
     <div className={Styles.homeWrapper}>
       <Navbar2 uid={1} />
       <div className="">
-        <div className="">
-          <Bill src="https://images.pexels.com/photos/397096/pexels-photo-397096.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
-          <Bill src="https://images.pexels.com/photos/629162/pexels-photo-629162.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
-          <Bill src="https://images.pexels.com/photos/6992/forest-trees-northwestisbest-exploress.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
-          <Bill src="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
-          <Bill src="https://images.pexels.com/photos/167698/pexels-photo-167698.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
-          <Bill src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
+        <div className={Styles.BillWrapper}>
+          {person.transactions.map((bill) => (
+            <Bill bill={bill} key={Math.random()} />
+          ))}
         </div>
-        <form>
-          <input type="number" placeholder="Enter Amount"></input>
+        <form
+          onSubmit={(e) => {
+            e.preventDefault()
+            setPerson({
+              ...person,
+              transactions: [
+                {
+                  uuid: Math.random(),
+                  amount: document.querySelector(".inputAmount").valueAsNumber,
+                  reason: "null",
+                  sign: "-",
+                  timestamp: Date.parse(new Date()),
+                  deliveryStatus: "sending",
+                },
+                ...person.transactions,
+              ],
+            })
+            e.target.reset()
+          }}
+        >
+          <input
+            type="number"
+            placeholder="Enter Amount"
+            className="inputAmount"
+          ></input>
           <button>
             <svg
               className="svg-icon"
