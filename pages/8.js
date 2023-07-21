@@ -5,7 +5,7 @@ import Styles from "./index.module.css"
 export default function Home() {
   return (
     <div className={Styles.homeWrapper}>
-      <Navbar2 />
+      <Navbar2 uid={8} />
       <div className="">
         <div className="">
           <Bill src="https://images.pexels.com/photos/397096/pexels-photo-397096.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" />

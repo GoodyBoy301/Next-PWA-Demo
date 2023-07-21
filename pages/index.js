@@ -8,12 +8,17 @@ export default function Home() {
       <Navbar />
       <div className="">
         <div className="">
-          <Card src="https://images.pexels.com/photos/397096/pexels-photo-397096.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
-          <Card src="https://images.pexels.com/photos/629162/pexels-photo-629162.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
-          <Card src="https://images.pexels.com/photos/6992/forest-trees-northwestisbest-exploress.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
-          <Card src="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
-          <Card src="https://images.pexels.com/photos/167698/pexels-photo-167698.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
-          <Card src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
+          <Card uid={0} />
+          <Card uid={1} />
+          <Card uid={2} />
+          <Card uid={3} />
+          <Card uid={4} />
+          <Card uid={5} />
+          <Card uid={6} />
+          <Card uid={7} />
+          <Card uid={8} />
+          <Card uid={9} />
+          <Card uid={10} />
         </div>
       </div>
     </div>

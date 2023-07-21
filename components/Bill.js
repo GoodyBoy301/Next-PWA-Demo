@@ -11,7 +11,6 @@ function Card({ src }) {
     setClassName(x)
   }, [])
 
-  if (className === "") return <></>
   return (
     <Link href="/home">
       <div className={className}>

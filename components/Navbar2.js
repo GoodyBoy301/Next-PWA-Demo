@@ -1,8 +1,9 @@
 import React from "react"
 import Styles from "./Navbar.module.css"
 import Link from "next/link"
+import { users } from "./Card"
 
-function Navbar() {
+function Navbar({ uid }) {
   return (
     <nav className={Styles.nav2}>
       <div className={Styles.nav__wrapper}>
@@ -21,7 +22,7 @@ function Navbar() {
           </svg>
         </Link>
         <figure>D</figure>
-        <h4>Damian Wayne</h4>
+        <h4>{users[uid].name}</h4>
       </div>
     </nav>
   )
